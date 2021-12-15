@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 0 2%;
+	margin: 0;
+	background-color: white;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	position: sticky;
+	top: 0;
+	background:transparent
+}
+nav .profile {
+	display: flex;
+	align-items: center;
+}
+nav .profile img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-left: 20%;
+}
+nav .profile h1 {
+	margin-left: 10px;
+	font-size: 15px;
+}
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+nav ul li {
+	margin-left: 40px;
+	cursor: pointer;
+	border-bottom: 1px solid white;
+}
+nav ul li:hover {
+	border-bottom-color: #000;
+}
+.profile ul{
+	color: black;
+}
+.page-content {
+	margin: 4%;
+}
+.page-content header {
+	margin-top: 5%;
+	max-width: 80%;
+}
+.page-content header h1 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 5vw;
+}
+.page-content header p {
+	line-height: 30px;
+	color: black;
+	font-size: medium;
+}
+.act  h2{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 3vw;
+	margin-left: 10%;
+}
+.act h3{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 2vw ;
+	text-align: center;
+}
+
+
+
+.page-content .presentation-image {
+	margin-top: 5%;
+}
+.page-content .presentation-image img {
+	max-width: 100%;
+	height: auto;
+}
+.page-content .projects-section h1 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 3vw;
+}
+.slide {
+	float: left;
+}
+.slides{
+	width: calc(900px*3);
+	animation: glisse 10s infinite;
+}
+.slider{
+	width: 900px;
+	overflow: hidden;
+	margin: 150px auto;
+}
+@keyframes glisse {
+	0%{
+		transform: translateX(0);
+	}
+	15%{
+		transform: translateX(0);
+	}
+	33%{
+		transform: translateX(-900px);
+	}
+	45%{
+		transform: translateX(-900px);
+	}
+	66%{
+		transform: translateX(-1800px);
+	}
+	80%{
+		transform: translateX(-1800px);
+	}
+	0%{
+		transform: translateX(0);
+	}
+}
+.projetjeu {
+    margin-right: 20px;
+    max-width: 500px;
+	max-height: 365px;
+    border: thick black solid;
+    border-color: rgb(53, 53, 53);
+	background-color: rgb(85, 83, 83);
+	margin-bottom: 5px;
+	margin-top: 10px;
+	}
+	.projetjeu:hover{
+		border-color: rgb(34, 34, 34);
+		background-color: rgb(34, 34, 34);
+		box-shadow:0 17px 23px 0 rgba(0, 0, 0, 0.700),0 17px 23px 0 rgba(0, 0, 0, 0.750); 
+	}
+
+
+	

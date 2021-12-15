@@ -1,0 +1,42 @@
+.slidee {
+	float: left;
+}
+.slidess{
+	width: calc(800px*3);
+	animation: glisse 10s infinite;
+}
+.sliderr{
+	width: 800px;
+	overflow: hidden;
+	margin: 50px auto;
+}
+@keyframes glisse {
+	0%{
+		transform: translateX(0);
+	}
+	15%{
+		transform: translateX(0);
+	}
+	33%{
+		transform: translateX(-800px);
+	}
+	45%{
+		transform: translateX(-800px);
+	}
+	66%{
+		transform: translateX(-1600px);
+	}
+	80%{
+		transform: translateX(-1600px);
+	}
+	0%{
+		transform: translateX(0);
+	}
+}
+.but{
+	font-size: 2vw;
+	text-decoration: none;
+	border-style: outset;
+	border-radius: 20px;
+	min-height: 120px;
+}
